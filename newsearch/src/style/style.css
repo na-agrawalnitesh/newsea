@@ -1,0 +1,407 @@
+
+.login-wrap{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background: #f3f6f7;
+}
+.login-wrap .login-container {
+    padding: 25px;
+    box-shadow: 2px 9px 49px -17px rgba(0, 0, 0, 0.1);
+    max-width: 390px;
+    width: calc(100% - 40px);
+    border-radius: 10px;
+    background: #fff;
+}
+.login-container .login-heading {
+    font-size: 28px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.login-container .input-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+.login-container .input-label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.input-group input {
+   padding: 10.5px 15px;
+    border: 1px solid #e5e5e5;
+    width: 100%;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.login-container .login-button {
+    color: #fff;
+    background: #006687;
+    border: 0;
+    padding: 12px 30px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.login-container  .login-paragraph{
+    margin-bottom: 10px;
+}
+.forgot-group {
+    text-align: right;
+    margin-bottom: 10px;
+}
+.forgot-group a {
+    font-size: 13px;
+    color: #000;
+    font-weight: 600;
+}
+
+
+/* dashboard */
+.dashboard-main{
+   background: #f3f6f7;
+   min-height: 100%;
+   width: 100%;
+}
+.header-dashboard {
+    padding: 14px 20px;
+    width: 100%;
+    background: #006687;
+    color: #fff;
+}
+.main-container{
+   max-width: 1170px;
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+}
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-container h1 {
+   font-size: 24px;
+    font-weight: normal;
+}
+.welcome-text {
+   display: flex;
+    gap: 15px;
+    font-size: 14px;
+}
+.welcome-text a {
+    color: #c6e1a8;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+.create-new-id h3 {
+    color: #006687;
+    font-weight: 500;
+    margin: 0 0 20px 0;
+    text-transform: capitalize;
+}
+.white-box-container{
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.input-field{
+    padding: 10.5px 15px;
+    border: 1px solid #e5e5e5;
+    width: 100%;
+    background: #fff;
+    border-radius: 5px;
+    outline: none;
+    font-family: "Inter", serif;
+}
+.white-wrap-container {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.white-wrap-container .dash-input-01{
+    width: 10%;
+    flex: 1;
+}
+.white-wrap-container .dash-input-02{
+    width: 38%;
+}
+.white-wrap-container .dash-input-03{
+    width: 38%;
+}
+
+.white-wrap-container .input-box-submit{
+    width: 100px;
+}
+.input-box-submit button{
+    color: #fff;
+    background: #006687;
+    border: 0;
+    padding: 12px 30px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    width: 100%;
+    text-transform: capitalize;
+}
+.button-content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    align-items: center;
+}
+.edit-btn {
+    background-color: #337ab7;
+    height: 34px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 4px 14px;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.delete-btn{
+    background-color: #d9534f;
+    height: 34px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 4px 14px;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.table-container{
+  overflow: auto;
+}
+.table {
+    border-collapse: collapse;
+}
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+}
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+    border: 1px solid #dee2e6;
+    text-align: left;
+    font-size: 14px;
+}
+.table textarea {
+    padding: 8px 10px;
+    border: 1px solid #e5e5e5;
+    font-size: 14px;
+    border-radius: 5px;
+    outline: none;
+    font-weight: 500;
+    font-family: "Inter", serif;
+}
+.notes-content{
+     position: relative;
+    line-height: normal;
+}
+.edit-content{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    border: 1px solid #7e8083;
+    padding: 6px 6px;
+    border-radius: 2px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.edit-content button.edit-txt, 
+.edit-content button.save-txt {
+    background: transparent;
+    border: 0;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 0 6px;
+    position: relative;
+}
+.edit-content button.save-txt::before {
+    position: absolute;
+    content: "";
+    left: -4px;
+    width: 1px;
+    height: 100%;
+    top: 0;
+    background: #000;
+}
+
+.name-wrap{
+  position: relative;
+    line-height: 0;
+}
+.name-content{
+    border: 1px solid #7e8083;
+    padding: 6px 6px;
+    border-radius: 2px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 5px;
+}
+.name-content button.edit-txt, 
+.name-content button.save-txt {
+    background: transparent;
+    border: 0;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 0 6px;
+    position: relative;
+}
+.name-content button.save-txt::before {
+    position: absolute;
+    content: "";
+    left: -4px;
+    width: 1px;
+    height: 100%;
+    top: 0;
+    background: #000;
+}
+.create-new-id {
+    padding: 20px 0;
+}
+
+
+/* Modal.css */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 500px;
+  width: 100%;
+  position: relative;
+  margin: 0 15px;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+.d-none{
+  display: none;
+}
+
+.modal-overlay h2 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+.edit-box-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+button.save-button {
+    color: #fff;
+    background: #006687;
+    border: 0;
+    padding: 12px 30px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    width: max-content;
+    text-transform: capitalize;
+}
+.modal-overlay .edit-box-form .input-box {
+    width: calc(50% - 5px);
+}
+.modal-actions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+button.cancel-btn {
+    background-color: #ddd;
+    height: 34px;
+    border: none;
+    border-radius: 4px;
+    color: #000;
+    padding: 4px 14px;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.textarea-box {
+    width: 100%;
+}
+.textarea-box textarea{
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    outline: none;
+    font-family: "Inter", serif;
+ width: 100%;
+    padding: 10.5px 15px;
+}
+
+.login-message {
+    margin-top: 10px;
+    font-size: 14px;
+    color: red;
+}
+
+.error-message{
+    font-size: 11px;
+    color: red;
+    text-align: left;
+    margin-top: 2px;
+
+}
+
+@media (max-width:1199px) {
+    .create-new-id .main-container{
+     padding: 0 15px;
+}
+}
+
+@media (max-width:767px) {
+.white-wrap-container .dash-input-01 , 
+.white-wrap-container .dash-input-02 {
+        width: 100%;
+}
+.white-wrap-container .dash-input-03{
+  flex: 1;
+}
+}
